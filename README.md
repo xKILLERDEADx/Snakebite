@@ -684,26 +684,26 @@ Snakebite generates **multiple report formats** automatically after each scan:
 
 ```
 Snakebite/
-├── 🐍 snakebite.py           # Main scanner engine & CLI (2200+ lines of power)
-├── 🎨 banner.py               # ASCII banner & branding
-├── 📋 requirements.txt        # Python dependencies
-├── ⚙️ setup.py                # Package installation (pip installable)
-├── 🖼️ Snakebite.png           # Project banner
-├── 📦 modules/                # 219+ security modules
-│   ├── core.py                # Shared utilities & console
-│   ├── recon.py               # Reconnaissance engine
-│   ├── sqli.py                # SQL injection scanner
-│   ├── xss.py                 # XSS detection engine
-│   ├── ...                    # 215+ more attack modules
-│   ├── report.py              # Master report engine
-│   └── plugin_system.py       # Plugin architecture
-├── 🚀 run.bat                 # Windows quick launcher
-├── 📦 setup.bat               # Windows dependency installer
-├── 🔧 snakebite.bat           # Alternative launcher
-├── 📄 LICENSE                 # MIT License
-├── 🤝 CONTRIBUTING.md         # Contribution guidelines
-├── 📝 CHANGELOG.md            # Version history
-└── 🔒 SECURITY.md             # Security policy
+├── snakebite.py          # Main scanner engine & CLI
+├── banner.py             # ASCII banner & branding
+├── requirements.txt      # Python dependencies
+├── setup.py              # Package installation
+├── Snakebite.png         # Project banner
+├── modules/              # 219+ security modules
+│   ├── core.py           # Shared utilities & console
+│   ├── recon.py          # Reconnaissance engine
+│   ├── sqli.py           # SQL injection scanner
+│   ├── xss.py            # XSS detection engine
+│   ├── ...               # 215+ more modules
+│   ├── report.py         # Report generation
+│   └── plugin_system.py  # Plugin architecture
+├── run.bat               # Windows quick launcher
+├── setup.bat             # Windows dependency installer
+├── snakebite.bat         # Alternative launcher
+├── LICENSE               # MIT License
+├── CONTRIBUTING.md       # Contribution guidelines
+├── CHANGELOG.md          # Version history
+└── SECURITY.md           # Security policy
 ```
 
 ---
