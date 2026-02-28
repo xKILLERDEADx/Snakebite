@@ -39,9 +39,9 @@
 
 ## 🔥 Why Snakebite?
 
-> **Snakebite isn't just another scanner — it's a full-spectrum offensive security toolkit.**
+> **Snakebite isn't just another scanner. It's a full-spectrum offensive security toolkit.**
 
-Most scanners focus on one thing. Snakebite does **everything**. From deep reconnaissance to zero-day pattern detection, from dark web monitoring to auto-exploit generation — all in one tool with **219+ specialized attack modules**.
+Most scanners focus on one thing. Snakebite does **everything**. From deep reconnaissance to zero-day pattern detection, from dark web monitoring to auto-exploit generation, all packed in one tool with **219+ specialized attack modules**.
 
 <table>
 <tr>
@@ -670,13 +670,13 @@ Snakebite generates **multiple report formats** automatically after each scan:
 
 ### What's in a Report?
 
-- 📝 **Executive Summary** — Risk scoring at a glance
-- 🏆 **OWASP Top 10 Compliance Matrix** — Instant compliance check
-- 🔍 **Detailed Findings** — Every vulnerability with severity, evidence, & CVE references
-- 💡 **Remediation Recommendations** — Actionable fix suggestions
-- 🛡️ **Compliance Check** — PCI DSS, GDPR, SOC2 readiness
-- 📈 **Security Scorecard** — Overall security posture grade
-- ⚔️ **Auto-Generated Exploit Scripts** — Ready-to-use PoC scripts
+- 📝 **Executive Summary** with risk scoring at a glance
+- 🏆 **OWASP Top 10 Compliance Matrix** for instant compliance check
+- 🔍 **Detailed Findings** with severity, evidence, & CVE references
+- 💡 **Remediation Recommendations** with actionable fix suggestions
+- 🛡️ **Compliance Check** for PCI DSS, GDPR, SOC2 readiness
+- 📈 **Security Scorecard** showing overall security posture grade
+- ⚔️ **Auto-Generated Exploit Scripts** with ready-to-use PoC scripts
 
 ---
 
@@ -757,10 +757,10 @@ Usage of this tool for attacking targets without **prior mutual consent** is **i
 <tr>
 <td>
 
-**Muhammad Abid** — Security Researcher & Developer
+**Muhammad Abid** | Security Researcher & Developer
 
 [![GitHub](https://img.shields.io/badge/GitHub-xKILLERDEADx-181717?style=flat-square&logo=github)](https://github.com/xKILLERDEADx)
-[![Website](https://img.shields.io/badge/Website-ZakriAzu%20LLC-0078D4?style=flat-square&logo=google-chrome&logoColor=white)](https://zakriazullc.com)
+[![Website](https://img.shields.io/badge/Website-muhammadabid.com-0078D4?style=flat-square&logo=google-chrome&logoColor=white)](https://muhammadabid.com)
 [![Email](https://img.shields.io/badge/Email-spaceworkofficial%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:spaceworkofficial@gmail.com)
 
 </td>
@@ -771,7 +771,7 @@ Usage of this tool for attacking targets without **prior mutual consent** is **i
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
