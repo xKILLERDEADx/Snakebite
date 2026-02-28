@@ -37,25 +37,7 @@
 
 </div>
 
-## 📸 Screenshots
-
-<div align="center">
-
-<img src="screenshots/scan.png" alt="Snakebite Scanning" width="80%" />
-
-*Reconnaissance and port scanning in action*
-
-<br/>
-
-<img src="screenshots/results.png" alt="Snakebite Results" width="80%" />
-
-*Vulnerability detection results with severity classification*
-
-</div>
-
-<br/>
-
-## 🔥 Why Snakebite?
+##  Why Snakebite?
 
 > **Snakebite isn't just another scanner. It's a full-spectrum offensive security toolkit.**
 
