@@ -37,6 +37,16 @@
 
 </div>
 
+## 📸 Screenshot
+
+<div align="center">
+
+<img src="screenshots/Snakebites.png" alt="Snakebite Tool" width="80%" />
+
+</div>
+
+<br/>
+
 ##  Why Snakebite?
 
 > **Snakebite isn't just another scanner. It's a full-spectrum offensive security toolkit.**
