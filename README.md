@@ -11,7 +11,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Modules](https://img.shields.io/badge/Modules-219+-FF0000?style=for-the-badge&logo=hackaday&logoColor=white)]()
+[![Modules](https://img.shields.io/badge/Modules-110+-FF0000?style=for-the-badge&logo=hackaday&logoColor=white)]()
 [![Platform](https://img.shields.io/badge/Platform-Windows%20|%20Linux%20|%20macOS-0078D4?style=for-the-badge&logo=windows-terminal&logoColor=white)]()
 [![Version](https://img.shields.io/badge/Version-2.0.0-FF6B35?style=for-the-badge&logo=semver&logoColor=white)]()
 [![Stars](https://img.shields.io/github/stars/xKILLERDEADx/Snakebite?style=for-the-badge&logo=github&color=yellow)](https://github.com/xKILLERDEADx/Snakebite)
@@ -25,7 +25,7 @@
 [🚀 Quick Start](#-quick-start) •
 [⚡ Features](#-features) •
 [🎯 Usage](#-usage) •
-[📦 Modules](#-all-modules-219) •
+[📦 Modules](#-all-modules-110) •
 [📊 Reports](#-reporting--output) •
 [🏗️ Architecture](#-architecture) •
 [🤝 Contributing](#-contributing) •
@@ -59,12 +59,12 @@
 
 > **Snakebite isn't just another scanner. It's a full-spectrum offensive security toolkit.**
 
-Most scanners focus on one thing. Snakebite does **everything**. From deep reconnaissance to zero-day pattern detection, from dark web monitoring to auto-exploit generation, all packed in one tool with **219+ specialized attack modules**.
+Most scanners focus on one thing. Snakebite does **everything**. From deep reconnaissance to zero-day pattern detection, from dark web monitoring to auto-exploit generation, all packed in one tool with **110+ specialized attack modules**.
 
 <table>
 <tr>
 <td>🎯</td>
-<td><b>219+ Attack Modules</b></td>
+<td><b>110+ Attack Modules</b></td>
 <td>The most comprehensive module library available in a single tool</td>
 </tr>
 <tr>
@@ -388,9 +388,9 @@ Notifications:
 
 ---
 
-## 📦 All Modules (219+)
+## 📦 All Modules (110+)
 
-Snakebite packs **219+ specialized security modules** — each purpose-built for real-world offensive testing.
+Snakebite packs **110+ specialized security modules** — each purpose-built for real-world offensive testing.
 
 <details>
 <summary><b>🔍 Reconnaissance & Discovery (30+ modules)</b></summary>
@@ -707,7 +707,7 @@ Snakebite/
 ├── requirements.txt      # Python dependencies
 ├── setup.py              # Package installation
 ├── Snakebite.png         # Project banner
-├── modules/              # 219+ security modules
+├── modules/              # 110+ security modules
 │   ├── core.py           # Shared utilities & console
 │   ├── recon.py          # Reconnaissance engine
 │   ├── sqli.py           # SQL injection scanner

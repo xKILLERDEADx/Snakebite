@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snakebite Report</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  .header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    border-radius: 16px; padding: 30px; margin-bottom: 20px; border: 1px solid #333; }
+  .header h1 { font-size: 28px; color: #00d4ff; margin-bottom: 8px; }
+  .header .meta { color: #888; font-size: 14px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 20px; }
+  .card { background: #1a1a2e; border-radius: 12px; padding: 20px; text-align: center; border: 1px solid #333; }
+  .card:hover { transform: translateY(-3px); border-color: #00d4ff; transition: 0.2s; }
+  .card .number { font-size: 36px; font-weight: bold; }
+  .card .label { font-size: 13px; color: #888; margin-top: 4px; }
+  .grade-card .number { font-size: 48px; color: #27ae60; }
+  .section { background: #1a1a2e; border-radius: 12px; padding: 24px; margin-bottom: 20px; border: 1px solid #333; }
+  .section h2 { color: #00d4ff; font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+  table { width: 100%; border-collapse: collapse; }
+  th { background: #16213e; color: #00d4ff; padding: 12px 8px; text-align: left; font-size: 13px; }
+  td { padding: 10px 8px; border-bottom: 1px solid #222; font-size: 13px; }
+  tr:hover { background: #16213e40; }
+  .badge { padding: 4px 10px; border-radius: 20px; color: white; font-size: 11px; font-weight: 600; }
+  .url-cell { max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #7ec8e3; }
+  .filter-bar { margin-bottom: 16px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { padding: 6px 16px; border-radius: 20px; border: 1px solid #333; background: transparent;
+    color: #e0e0e0; cursor: pointer; font-size: 13px; }
+  .filter-btn:hover, .filter-btn.active { background: #00d4ff; color: #000; border-color: #00d4ff; }
+  .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+  .info-item .key { color: #00d4ff; font-size: 12px; text-transform: uppercase; }
+  .info-item .val { font-size: 15px; margin-top: 2px; }
+  .footer { text-align: center; padding: 20px; color: #555; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Snakebite Security Report</h1>
+    <div class="meta">Target: <strong>https://runningspringshealth.com/</strong> | 2026-02-28 20:25:17</div>
+  </div>
+  <div class="cards">
+    <div class="card grade-card"><div class="number">A+</div><div class="label">Security Grade</div></div>
+    <div class="card"><div class="number" style="color:#e74c3c">0</div><div class="label">Critical</div></div>
+    <div class="card"><div class="number" style="color:#e67e22">0</div><div class="label">High</div></div>
+    <div class="card"><div class="number" style="color:#f39c12">0</div><div class="label">Medium</div></div>
+    <div class="card"><div class="number" style="color:#3498db">0</div><div class="label">Low</div></div>
+    <div class="card"><div class="number" style="color:#27ae60">0</div><div class="label">Total</div></div>
+  </div>
+  <div class="section">
+    <h2>Reconnaissance</h2>
+    <div class="info-grid">
+      <div class="info-item"><div class="key">IP</div><div class="val">N/A</div></div>
+      <div class="info-item"><div class="key">Server</div><div class="val">N/A</div></div>
+      <div class="info-item"><div class="key">WAF</div><div class="val">N/A</div></div>
+      <div class="info-item"><div class="key">Open Ports</div><div class="val">0</div></div>
+    </div>
+  </div>
+  <div class='section'><h2>OWASP Top 10</h2><table><tr><th>ID</th><th>Category</th><th>Status</th></tr><tr><td>A01</td><td>Broken Access Control</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A02</td><td>Cryptographic Failures</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A03</td><td>Injection</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A04</td><td>Insecure Design</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A05</td><td>Security Misconfiguration</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A06</td><td>Vulnerable & Outdated Components</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A07</td><td>Identification & Authentication Failures</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A08</td><td>Software & Data Integrity Failures</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A09</td><td>Security Logging & Monitoring Failures</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr><tr><td>A10</td><td>Server-Side Request Forgery (SSRF)</td><td><span class="badge" style="background:#27ae60">PASS</span></td></tr></table></div>
+  <div class="section">
+    <h2>Vulnerabilities (0)</h2>
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterTable('all')">All</button>
+      <button class="filter-btn" onclick="filterTable('Critical')">Critical</button>
+      <button class="filter-btn" onclick="filterTable('High')">High</button>
+      <button class="filter-btn" onclick="filterTable('Medium')">Medium</button>
+      <button class="filter-btn" onclick="filterTable('Low')">Low</button>
+    </div>
+    <table id="ft"><tr><th>Severity</th><th>Module</th><th>Type</th><th>URL</th><th>CVE</th></tr></table>
+  </div>
+  <div class="footer">Generated by Snakebite Security Scanner</div>
+</div>
+<script>
+function filterTable(s){var r=document.querySelectorAll('#ft tr:not(:first-child)');document.querySelectorAll('.filter-btn').forEach(function(b){b.classList.remove('active')});event.target.classList.add('active');r.forEach(function(row){row.style.display=s==='all'?'':row.cells[0].textContent.trim()===s?'':'none'})}
+</script>
+</body>
+</html>

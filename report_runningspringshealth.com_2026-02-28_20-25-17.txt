@@ -1,0 +1,105 @@
+SNAKEBITE SCAN REPORT
+Target: https://runningspringshealth.com/
+Time: 2026-02-28 20:25:17
+==================================================
+
+RELULTS SUMMARY:
+- Open Ports: 0
+- Subdomains: 0
+- Crawled Links: 0
+- Vulnerabilities (SQLi): 0
+- Vulnerabilities (XSS): 0
+- Vulnerabilities (LFI): 0
+- Vulnerabilities (Redirect): 0
+- Takeover Risks: 0
+- JS Secrets Found: 0
+- Sensitive Files Found: 0
+- CORS Issues: 0
+- Clickjacking Status: N/A
+- Email Security: N/A
+- Vulnerabilities (RCE): 0
+- Vulnerabilities (SSTI): 0
+- JWT Issues: 0
+- GraphQL Endpoints: 0
+- Prototype Pollution: 0
+- WAF Bypasses: 0
+- XXE Vulnerabilities: 0
+- IDOR Flaws: 0
+- Cloud Buckets: 0
+- Spring Boot Risks: 0
+- CRLF Injections: 0
+- Shellshock: 0
+- Host Header Injection: 0
+- 403 Bypasses: 0
+- Java Deserialization: 0
+- Broken Links (Hijack): 0
+- HTTP Smuggling: 0
+- Web Cache Deception: 0
+- Git Exposure: 0
+- API Swagger Docs: 0
+- Race Conditions: 0
+- WebSocket Hijacking: 0
+- Reverse Tabnabbing: 0
+- Admin Panels: 0
+- S3 Buckets (Brute): 0
+- WebDAV Methods: 0
+- IIS Shortnames: 0
+- SSI Injection: 0
+- XSLT Injection: 0
+- Ghost RCE (Time): 0
+- Silent SQLi: 0
+- H2C Smuggling: 0
+- PHP Object Inj: 0
+- LDAP Injection: 0
+- XPath Injection: 0
+- Pickle Injection: 0
+- SSRF Port Scan: 0
+- CSV Injection: 0
+- RPO Scanner: 0
+- ESI Injection: 0
+- Dangling Markup: 0
+- HPP Scanner: 0
+- DOM XSS Scan: 0
+- Proto Pollution: 0
+- Log4Shell: 0
+- Spring4Shell: 0
+- Server Proto: 0
+- Kubernetes: 0
+- Firebase DB: 0
+- Jenkins CI: 0
+- Elasticsearch: 0
+- Drupal RCE: 0
+- Tomcat Mgr: 0
+- Ultra Admin: 0
+- Citrix RCE: 0
+- ThinkPHP RCE: 0
+- Rails Discl: 0
+- WebLogic RCE: 0
+- SAP Recon: 0
+- Exchange: 0
+- VMware RCE: 0
+- F5 RCE: 0
+- Jira RCE: 0
+- Confluence RCE: 0
+- Pulse VPN: 0
+- Struts RCE: 0
+- ColdFusion LFI: 0
+- Solr RCE: 0
+- Nginx Alias: 0
+- SonarQube: 0
+- Grafana LFI: 0
+- Redis RCE: 0
+- Docker API: 0
+- Memcached: 0
+- Gitea RCE: 0
+- MinIO Leak: 0
+- Zabbix Bypass: 0
+- JBoss RCE: 0
+- GlassFish LFI: 0
+- Hadoop RCE: 0
+
+CMS ANALYSIS:
+- Detected Systems: WordPress
+- Version: 6.9.1
+- Users Found: Runningspringshealth
+- XML-RPC Enabled: True
